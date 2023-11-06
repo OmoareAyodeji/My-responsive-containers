@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 20em;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div{
+    height: 100%;
+    width: 20%;
+    background-color: brown;
+    border: 2px solid whitesmoke;
+}
+
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: green;
+}
+.four{
+    background-color: fuchsia;
+}
+.five{
+    background-color: gray;
+}
+.six{
+    background-color: orangered;
+}
+
+/* @media only screen and (max-width: 375px){
+   .one{
+    width: 90%;
+    margin: 1% 0;
+   }
+   .two{
+    width: 90%;
+    margin: 1% 0;
+   }
+   .three{
+    width: 90%;
+    margin: 1% 0;
+   }
+   .four{
+    width: 90%;
+    margin: 1% 0;
+   }
+   .five{
+    width: 90%;
+    margin: 1% 0;
+   }
+   .six{
+    width: 90%;
+    margin: 1% 0;
+   }
+} */
+
+   
+@media only screen and (min-width: 10px){
+    .one, .two, .three, .four, .five, .six{
+        width: 90%;
+        margin: 1% 0;
+    }
+}
+   
+/* @media only screen and (min-width: 375px){
+    .one, .two, .three, .four, .five, .six{
+        width: 45%;
+        margin: 1% 1%;
+    }
+} */
+
+@media only screen and (min-width: 768px){
+    .one, .two, .three, .four, .five, .six{
+        width: 45%;
+        margin: 1% 1%;
+    }
+}
+
+@media only screen and (min-width: 820px){
+    .one, .two, .three{
+        width: 30%;
+        margin: 1% 1%;
+    }
+    .four, .five{
+        width: 45%;
+    }
+    .six{
+        width:90% ;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    
+    .one, .two, .three, .four, .five, .six{
+        width: 15.7%;
+        height: 80%;
+        margin: 1% 0.2%;
+    }
+}
